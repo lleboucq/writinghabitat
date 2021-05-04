@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Writing Habitat French Café</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <style>
+        body {
+          background-image: url('writing_environment_caféparis.jpg');
+          background-size: 100%;
+          }
+        </style>
+    <center>
+    <h1>French Café Habitat</h1>
+
+
+    <textarea class="textarea" name="Write!" id="word" oninput="countWord()" cols="30" rows="25"></textarea>
+ 
+    <p> Word Count:
+        <span id="show">0</span>
+    </p>
+  
+    <script>
+        function countWord() {
+  
+            // Get the input text value
+            var words = document
+                .getElementById("word").value;
+  
+            // Initialize the word counter
+            var count = 0;
+  
+            // Split the words on each
+            // space character 
+            var split = words.split(' ');
+  
+            // Loop through the words and 
+            // increase the counter when 
+            // each split word is not empty
+            for (var i = 0; i < split.length; i++) {
+                if (split[i] != "") {
+                    count += 1;
+                }
+            }
+  
+            // Display it as output
+            document.getElementById("show")
+                .innerHTML = count;
+        }
+    </script>
+
+<br>
+<iframe width="853" height="30" src="https://www.youtube.com/embed/-ZClicWm0zM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; encrypted-media" ></iframe>
+
+</body>
+
+
+
+<footer> 
+    Image by <a href="https://pixabay.com/users/7089643-7089643/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5250585">Please Don't sell My Artwork AS IS</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5250585">Pixabay</a></footer>
+</html>
