@@ -1,0 +1,44 @@
+
+body {
+  background-color: rgb(247, 183, 199);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+footer {
+    position: absolute;
+    bottom: 0;
+    
+}
+
+h1 {
+    background-color:rgb(97, 133, 97);
+    width: 60%;
+    border-radius: 15px;
+    opacity: 0.8;
+    
+}
+ hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: indianred;
+    width: 30%;
+    border-width: 10px;
+}
+
+
+
+  .form {
+  background-color: darksalmon;
+  width: 65%;
+  border-radius: 15px;
+  opacity: 0.7;
+  padding: 15px;
+
+  }
+
+  .textarea {
+    opacity: 0.7;
+    width: 80%;
+    height: 75%;
+    font-size: 12px;
+  }
